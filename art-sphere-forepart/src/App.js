@@ -13,8 +13,12 @@ function App() {
     <Switch>
       <Route path="/" exact component={Homepage} />
       <Route path="/galleries" component={GalleryList} />
-      
-    </Switch>
+      <Route path="/artwork/:id" component={ArtworkDetails} />
+      <Route path="/cart" component={Cart} />
+      <Route path="/profile" component={profile} />
+      </Switch>
     </BrowserRouter>
   )
 }
+
+export default App;
