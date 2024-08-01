@@ -4,16 +4,16 @@ import axios from 'axios';
 function ArtworkDetails(props) {
     const [artwork, setArtwork] = useState({});
 
-    useEffect(()) =>
+    useEffect() ; => {
         axios.get('http://localhost:5000/artwork/${props.match.params.id}')
     .then(response => {
-        setGalleries(response.data);
+        setArtwork(response.data);
     })
     .catch(error => {
         console.error(error);
     
     });
-    }, ([props.match.params.id]);
+    } [(props.match.params.id)];
 
     return (
         <div>
@@ -22,3 +22,6 @@ function ArtworkDetails(props) {
             <img src={artwork.image_url} alt={artwork.title} />
             </div>
     );
+}
+
+export default ArtworkDetails;
