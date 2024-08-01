@@ -9,6 +9,12 @@ import Cart from './components/Profile';
 function App() {
   return (
     <BrowserRouter>
+    <Navbar />
+    <Switch>
+      <Route path="/" exact component={Homepage} />
+      <Route path="/galleries" component={GalleryList} />
+      
+    </Switch>
     </BrowserRouter>
   )
 }
