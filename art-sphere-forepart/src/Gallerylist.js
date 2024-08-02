@@ -16,5 +16,19 @@ function GalleryList() {
   
     } , []);
 
-    
+    return (
+        <><div>
+            <h1>Galleries</></h1><ul>
+                {galleries.map(gallery => (
+                    <li key={gallery.id}>
+                        <link to={'/galleries/${gallery.id}'}>{gallery.name}</Link>
 
+                    </li>
+                ))}
+            </ul></>
+        </div>
+    );
+
+
+
+}

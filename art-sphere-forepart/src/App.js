@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Homepage from './components/HomePage';
 import GalleryList from './components/GalleryList';
 import ArtworkDetails from '/components/ArtworkDetails';
-import Cart from './components/Profile';
+import Cart from './Profile';
 
 function App() {
   return (
