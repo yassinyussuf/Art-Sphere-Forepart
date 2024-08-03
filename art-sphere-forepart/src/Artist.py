@@ -1,7 +1,7 @@
-import React, { userState } from 'eact';
+import React, { userState } from 'React';
 import axios from 'axios'
 
-const Artist = () => {
+const Artist = () =>       {
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('');
     const [image_url, setImageUrl] = useState('');
@@ -17,10 +17,10 @@ const Artist = () => {
                         )
         } catch (error) {
 
-        }
+          }
     };
-
-    return (
+{ ()
+    return {()
         <div>
             <h1>Create Artwork</h1>
             <form onSubmit={handleSubmit}>
@@ -31,6 +31,24 @@ const Artist = () => {
                     <br />
                     <label>
                          Description:
-                         
-    )
-}
+                         <textarea value={description} onchange={e} => setDescription(e.target.value)} />
+                         </label>
+                         <br />
+                         <label>
+                      {         Prince:
+                               <input type="number" value={prince} onChange={(e)}  => setPrince(e.target.value)} />{
+                                 </label>
+                                 <br />
+                                 <label>
+                                   Genre:
+                                    <input type="text" value={genre} onChange={(e)} => setGenre(e.target.value) />
+                                  </label>
+                                  <br />
+                                  <button type="submit">Create Artwork</button>
+                                </form>
+                            </div>
+       () ;
+   }; 
+                                    
+    
+
