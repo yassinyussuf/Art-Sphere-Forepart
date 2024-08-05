@@ -1,7 +1,9 @@
-import React, { userState } from 'React';
-import axios from 'axios'
+from ast import Constant
+from random import setstate
+import React, { setstate } from 'React'; # type: ignore
+import axios from 'axios' # type: ignore
 
-const Artist = () =>       {
+Constant Artist = () => {
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('');
     const [image_url, setImageUrl] = useState('');
@@ -47,7 +49,7 @@ const Artist = () =>       {
                                   <button type="submit">Create Artwork</button>
                                 </form>
                             </div>
-       () ;
+       };
    }; 
                                     
     
