@@ -5,7 +5,7 @@ const About = () => {
     <>
       <section className="about" id="about">
         <h1 className="heading">
-          <span>about</span> us
+          <span>About</span> Us
         </h1>
 
         <div className="row">
@@ -14,12 +14,12 @@ const About = () => {
           </div>
 
           <div className="content">
-            <h3>what makes our bevarages special?</h3>
+            <h3>What makes our platform amazing?</h3>
             <p>
-              Elevate your taste experience with our carefully curated selection of beverages. Crafted with precision and passion, each sip embodies a symphony of flavors that dance on your palate. From the subtle notes of freshly brewed coffee to the tantalizing aroma of handpicked teas, every cup is a journey of indulgence.
+           Welcome to Art-Sphere platform whereby, when people ask us what our work is about, We can only answer “everything!”
             </p>
             <p>
-               Immerse yourself in the essence of luxury with our beverages, meticulously sourced from the finest ingredients around the globe. Delight in the richness of tradition blended seamlessly with modern sophistication. With each sip, discover a new realm of taste, where quality meets excellence, and satisfaction knows no bounds.
+               Get yoursself a chance to interact with our platform and view what our artists have in store for you!
             </p>
           
           </div>
