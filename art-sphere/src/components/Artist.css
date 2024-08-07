@@ -1,0 +1,96 @@
+/* Artist.css */
+
+.artist-container {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    color: #333;
+  }
+  
+  .artist-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .artist-profile-picture {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .artist-details h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+  }
+  
+  .artist-details p {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+  }
+  
+  .artist-artworks {
+    margin-bottom: 20px;
+  }
+  
+  .artist-artworks h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .artwork-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .artwork-item {
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .artwork-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .artwork-item h3 {
+    margin: 10px;
+    font-size: 1.5em;
+  }
+  
+  .artwork-item p {
+    margin: 0 10px 10px 10px;
+    font-size: 1em;
+  }
+  
+  .artist-reviews {
+    margin-bottom: 20px;
+  }
+  
+  .artist-reviews h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .artist-reviews ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .artist-reviews li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  

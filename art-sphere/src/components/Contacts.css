@@ -1,0 +1,55 @@
+/* Contact.css */
+.contact {
+  background-image: url('https://cdn.dribbble.com/users/31818/screenshots/5054596/gif-dribb.gif');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #fff; /* Ensures text is readable on the background image */
+}
+
+.contact .heading {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.contact .inputBox {
+  margin: 15px 0;
+}
+
+.contact .inputBox span {
+  color: #1f1e1e; /* Icon color */
+}
+
+.contact .inputBox input,
+.contact .inputBox textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.contact .inputBox input:focus,
+.contact .inputBox textarea:focus {
+  outline: none;
+  border: 2px solid #fff;
+}
+
+.contact .btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #1a1919;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contact .btn:hover {
+  background-color: #ddd;
+}

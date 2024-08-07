@@ -1,0 +1,17 @@
+/* ArtistGallery.css */
+.artist-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .art-item {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  .art-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  

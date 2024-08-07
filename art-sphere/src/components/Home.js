@@ -8,7 +8,7 @@ import Navbar from './Navbar'; // Import Navbar component
 const Home = () => {
   // Example images as data URIs (replace with your own image data)
   const images = [
-    "https://i.pinimg.com/564x/cc/a9/32/cca9325b6c5a8eb9705abfa3bb1555e1.jpg",
+    "https://i.pinimg.com/564x/e0/4e/6f/e04e6f87fd0f8f2aaa14e6959fb8a033.jpg",
     "https://i.pinimg.com/564x/19/71/74/197174bbbb2244bd02f029f9ec601812.jpg",
     "https://i.pinimg.com/736x/cd/95/5c/cd955c5d2fd2619b68b012d2b9fe0b2a.jpg",
     "https://i.pinimg.com/564x/f7/08/df/f708df12b2a3164c66b9eb4e03a359ce.jpg",
@@ -47,7 +47,6 @@ const Home = () => {
             ))}
           </Carousel>
         </div>
-
         <div className="featured-section">
           <h2>Featured Artworks</h2>
           <div className="featured-artworks">
@@ -127,7 +126,7 @@ const Home = () => {
         </div>
       </section>
     </div>
+    
   );
 };
-
 export default Home;

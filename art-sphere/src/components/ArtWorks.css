@@ -1,0 +1,28 @@
+.artworks-list {
+  padding: 20px;
+}
+
+.artworks-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.artwork-item {
+  flex: 1 0 21%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.artwork-item img {
+  width: 100%;
+  height: auto;
+}
+
+.artwork-item p {
+  padding: 10px;
+  background: #f8f8f8;
+  margin: 0;
+}

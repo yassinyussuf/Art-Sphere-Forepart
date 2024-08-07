@@ -315,8 +315,7 @@ const ArtGallery = () => {
   useEffect(() => {
     // Simulating an API call with placeholder data
     const fetchArtworks = async () => {
-      // In a real application, you would fetch data from an API
-      // Here we're using placeholder data
+      
       setArtworks(initialArtworks);
     };
     fetchArtworks();
