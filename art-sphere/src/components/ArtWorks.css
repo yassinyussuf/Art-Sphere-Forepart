@@ -25,4 +25,18 @@
   padding: 10px;
   background: #f8f8f8;
   margin: 0;
+  position: relative;
+}
+.featured {
+  border: 2px solid gold;
+}
+
+.featured-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: gold;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
 }

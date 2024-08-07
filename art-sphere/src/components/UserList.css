@@ -1,0 +1,28 @@
+
+.user-list {
+    padding: 20px;
+  }
+  
+  .user-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-list .active {
+    color: green;
+  }
+  
+  .user-list .inactive {
+    color: red;
+  }
+  
+  .user-list button {
+    margin-left: 10px;
+  }
+  

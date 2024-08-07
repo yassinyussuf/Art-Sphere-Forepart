@@ -4,7 +4,7 @@ import axios from 'axios';
 import { FaStar } from 'react-icons/fa';
 import './Review.css';
 
-// Set up Axios instance with the base URL
+
 const api = axios.create({
   baseURL: 'http://127.0.0.1:5555'
 });
@@ -21,7 +21,7 @@ function Reviews() {
   });
 
   useEffect(() => {
-    // Fetch all data when the component mounts
+    
     fetchReviews();
     fetchUsers();
     fetchMechanics();
@@ -30,7 +30,7 @@ function Reviews() {
   const fetchReviews = () => {
     api.get('/reviews')
       .then(response => {
-        console.log('Fetched reviews:', response.data); // Log fetched reviews
+        console.log('Fetched reviews:', response.data); 
         setReviews(response.data);
       })
       .catch(error => console.error('Error fetching reviews:', error));
@@ -39,7 +39,7 @@ function Reviews() {
   const fetchUsers = () => {
     api.get('/users')
       .then(response => {
-        console.log('Fetched users:', response.data); // Log fetched users
+        console.log('Fetched users:', response.data); 
         setUsers(response.data);
       })
       .catch(error => console.error('Error fetching users:', error));
@@ -48,10 +48,10 @@ function Reviews() {
   const fetchMechanics = () => {
     api.get('/mechanics')
       .then(response => {
-        console.log('Fetched mechanics:', response.data); // Log fetched mechanics
+        console.log('Fetched artwork:', response.data); 
         setMechanics(response.data);
       })
-      .catch(error => console.error('Error fetching mechanics:', error));
+      .catch(error => console.error('Error fetching artworks:', error));
   };
 
   const getUserById = (id) => users.find(user => user.id === id);

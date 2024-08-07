@@ -30,8 +30,7 @@ const ArtistGallery = () => {
 };
 
 const addToCart = (art) => {
-  // Add the selected art to the cart
-  // This function should interact with your cart state or context
+ 
   console.log('Art added to cart:', art);
 };
 

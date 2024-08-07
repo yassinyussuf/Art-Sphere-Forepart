@@ -1,0 +1,11 @@
+
+.artwork-details {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .artwork-details img {
+    max-width: 100%;
+    height: auto;
+  }
+  
