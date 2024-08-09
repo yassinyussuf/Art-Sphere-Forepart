@@ -1,8 +1,7 @@
-// Navbar.js
 
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './Navbar.css'; // Import custom CSS file for Navbar component
+import { Link } from 'react-router-dom'; 
+import './Navbar.css'; 
 
 const Navbar = () => {
   return (
@@ -15,6 +14,7 @@ const Navbar = () => {
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/reviews">Reviews</Link></li>
+        <li><Link to="/notification">Notification</Link> </li>
       </ul>
     </nav>
   );

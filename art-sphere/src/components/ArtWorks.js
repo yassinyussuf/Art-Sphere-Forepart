@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { useNotification } from '../context/NotificationContext';
+import  { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './ArtWorks.css'; 
 
@@ -10,6 +12,11 @@ const artworksData = Array.from({ length: 50 }, (_, index) => ({
 }));
 
 const ArtWorks = () => {
+  const { addNotification } = useNotification();
+  useEffect(() => {
+    addNotification('New artworks have been uploaded!');
+  }, [addNotification]);
+
   return (
     <div className="artworks-list">
       <h1>Art Works</h1>
@@ -19,6 +26,8 @@ const ArtWorks = () => {
             <Link to={`/art-gallery/${artwork.id}`}>
               <img src={artwork.imageUrl} alt={artwork.title} />
               <p>{artwork.title}</p>
+              {artwork.featured && <span className="featured-badge">Featured</span>}
+
             </Link>
           </div>
         ))}
