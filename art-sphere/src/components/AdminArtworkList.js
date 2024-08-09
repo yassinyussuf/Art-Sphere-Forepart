@@ -6,7 +6,7 @@ const AdminArtworkList = () => {
   const [artworks, setArtworks] = useState([]);
 
   useEffect(() => {
-    // Fetch artworks from the backend
+    
     axios.get('/api/artworks')
       .then(response => setArtworks(response.data))
       .catch(error => console.error(error));
